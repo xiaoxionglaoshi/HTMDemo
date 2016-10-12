@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<br>
+    <meta charset="UTF-8">
+    <meta name="author" content="xxx">
+    <title>小熊老师</title>
+
+    <style type="text/css">
+        h2 {color: red;}
+        p {color: black;}
+
+    </style>
+
+</head>
+<body bgcolor="#faebd7">
+
+    <h2 align="center">这是一个二级标题</h2>
+    <p> <a id="top">this is a paragraph</a> </p>
+    <!--水平分割线-->
+    <hr>
+    <p>this is another paragraph</p>
+    <a href="http://www.baidu.com" >百度</a>
+    <br>
+    <a href="http://www.google.com">
+        <img src="http://img1.imgtn.bdimg.com/it/u=4131634322,487666839&fm=21&gp=0.jpg" width="320" height="568" alt="我是一张图片">
+    </a>
+    <p>
+        <b>字体加粗了</b>
+        <i>字体歪了</i>
+        <code>电脑输出</code>
+        星期一<sub>1</sub>
+        星期二<sup>2</sup>
+        <strong>突出</strong>
+    </p>
+    <pre>
+        今天  天气
+        确实不错 说的是实话
+    </pre>
+    <address>写邮件给j<a href="mailto:wjncode@gmail.com" >json</a> </address>
+    <abbr title="xiaoxiong">xiao.</abbr>
+    <br>
+    <acronym title="xiaoxionglaoshi">xxls</acronym>
+    <p><bdo dir="rtl">你好啊</bdo></p>
+    <p>我要引用:<q>我是一个块引用</q>是不是很不错</p>
+    <p>我要把你改掉<del>jon</del> <ins>tom!</ins></p>
+    <p>今天天气:<cite>晴</cite> <dfn>下雨了</dfn></p>
+    <p>
+        <a href="index.html">我自己</a>
+    </p><br>
+    <a href="http://www.baidu.com" target="_blank">新页面打开百度</a>
+    <p><a href="#top">top</a></p>
+    <a href="http://www.baidu.com" target="_blank" style="text-decoration:none;">访问百度</a>
+
+    <img border="0" src="http://img1.imgtn.bdimg.com/it/u=4131634322,487666839&fm=21&gp=0.jpg" alt="ss" width="200" height="200">
+    <br>
+    <br>
+    <table border="1" cellspacing="0.5" cellpadding="20">
+        <caption>我是表头</caption>
+        <tr>
+            <td>row 0 cell 0</td>
+            <td>row 0 cell 1</td>
+            <td>row 0 cell 2</td>
+        </tr>
+        <tr>
+            <td>row1 cell0</td>
+            <td>row1 cell1</td>
+            <td>row1 cell2</td>
+        </tr>
+        <tr>
+            <th>name</th>
+            <th colspan="2">xiaoxionglaoshi</th>
+        </tr>
+    </table>
+
+    <h3>无序列表</h3>
+    <ul style="list-style-type: circle">
+        <li>html</li>
+        <li>swift</li>
+        <li>java</li>
+    </ul>
+    <br>
+    <h3>有序列表</h3>
+    <ol start="100">
+        <li>html</li>
+        <li>swift</li>
+        <li>java</li>
+    </ol>
+    <br>
+    <h3>自定义列表</h3>
+    <dl>
+        <dd>- html</dd>
+        <dd>- swift</dd>
+        <dd>- java</dd>
+    </dl>
+
+    <div id="header" style="background-color: brown; height: 80px">
+        <h1 style="margin-bottom: auto" align="center">title</h1>
+    </div>
+
+    <form name="input" action="index.html" method="get">
+        用户名:<input type="text" name="name" size="100" value="xiaoxionglaoshi"><br>
+        密码  :<input type="password" name="password"><br>
+        <h3>单选按钮</h3>
+        <input type="radio" name="sex" value="male">男<br>
+        <input type="radio" name="sex" value="female">女<br>
+        <h3>复选按钮</h3>
+        <input type="checkbox" name="vehicle" value="html">html<br>
+        <input type="checkbox" name="vvv" value="swift" checked="checked">swift<br>
+        <h3>提交按钮</h3>
+        <input type="submit" value="submit">
+
+        <h3>简单下拉列表</h3>
+        <select name="programming">
+            <option value="html">html</option>
+            <option value="java" selected>java</option>
+            <option value="swift">swift</option>
+        </select>
+        <h3>文本域</h3>
+        <textarea rows="10" cols="20">我是一个文本域中的内容</textarea>
+
+        <h3>创建一个按钮</h3>
+        <input type="button" value="点我啊">
+    </form></form>
+    <iframe src="index.html" width="800" height="200" frameborder="0"></iframe>
+    <br>
+    <script>
+        document.write("我是插入进来的")
+    </script>
+    <br>
+    <p id="demo">我是来逗逼的</p>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML="我也觉得是"
+            document.getElementById("demo").style.color="#ff0000"
+        }
+    </script>
+    <button type="button" onclick="myFunction()">点我啊</button>
+    <object width="300" height="500"data="http://img1.imgtn.bdimg.com/it/u=4131634322,487666839&fm=21&gp=0.jpg"></object>
+
+</body>
+</html>
